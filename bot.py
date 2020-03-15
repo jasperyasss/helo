@@ -25,3 +25,5 @@ async def on_message(message):
 			await react(message)
 
 bot.run("NjgxODYzMTcyNzEzNzQyMzY2.XlU2IQ.cAgN5RDRentVmYyNFqjLZ2UffrI")
+
+bot.login(process.env.token)
